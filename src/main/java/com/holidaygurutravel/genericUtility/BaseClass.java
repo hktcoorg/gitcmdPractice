@@ -13,9 +13,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass extends BaseClassVeriables
 {
 	
-	//First modify
-	//Second modify from main project
-	//to pull in work space
+	//git for cmd
 
 	/**
 	 * Browser launch and setter of thread safe of webdriverUtility take Sshot
