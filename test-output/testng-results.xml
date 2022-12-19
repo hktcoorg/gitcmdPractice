@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[system Test case1 is pass]]>
+    </line>
+    <line>
+      <![CDATA[User is Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[Admin created Package is Displayed in user module]]>
+    </line>
+    <line>
+      <![CDATA[integration Test case2 is Pass]]>
+    </line>
+    <line>
+      <![CDATA[User is Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[regrasion Test case3 is pass]]>
+    </line>
+    <line>
+      <![CDATA[User is Successfully logged in]]>
+    </line>
+    <line>
+      <![CDATA[Password is changed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged in With NewPasword is Succes]]>
+    </line>
+    <line>
+      <![CDATA[integration Test case4 is Passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-19T10:54:11 IST" name="Suite" finished-at="2022-12-19T10:54:42 IST" duration-ms="30744">
+    <groups>
+      <group name="end to end">
+        <method signature="Testcasses.AdmincreatedpackageverifyTest()[pri:2, instance:com.TestNgTestScript.Testcasses@338fc1d8]" name="AdmincreatedpackageverifyTest" class="com.TestNgTestScript.Testcasses"/>
+      </group> <!-- end to end -->
+    </groups>
+    <test started-at="2022-12-19T10:54:11 IST" name="AllTests" finished-at="2022-12-19T10:54:42 IST" duration-ms="30744">
+      <class name="com.TestNgTestScript.Testcasses">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:12 IST" name="beforeTest" finished-at="2022-12-19T10:54:16 IST" duration-ms="4050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:16 IST" name="beforeMethod" finished-at="2022-12-19T10:54:18 IST" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AdmincreatepackageTest()[pri:1, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:18 IST" name="AdmincreatepackageTest" finished-at="2022-12-19T10:54:24 IST" duration-ms="5269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[system Test case1 is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdmincreatepackageTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:24 IST" name="afterMethod" finished-at="2022-12-19T10:54:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:24 IST" name="beforeMethod" finished-at="2022-12-19T10:54:24 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="AdmincreatedpackageverifyTest()[pri:2, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:24 IST" name="AdmincreatedpackageverifyTest" finished-at="2022-12-19T10:54:28 IST" duration-ms="4342" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is Successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[Admin created Package is Displayed in user module]]>
+            </line>
+            <line>
+              <![CDATA[integration Test case2 is Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AdmincreatedpackageverifyTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:28 IST" name="afterMethod" finished-at="2022-12-19T10:54:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:28 IST" name="beforeMethod" finished-at="2022-12-19T10:54:29 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="UserbookpackageTest()[pri:3, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:29 IST" name="UserbookpackageTest" finished-at="2022-12-19T10:54:33 IST" duration-ms="4764" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is Successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[regrasion Test case3 is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserbookpackageTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:33 IST" name="afterMethod" finished-at="2022-12-19T10:54:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:33 IST" name="beforeMethod" finished-at="2022-12-19T10:54:34 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="UserpasswordchangeTest()[pri:4, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:34 IST" name="UserpasswordchangeTest" finished-at="2022-12-19T10:54:42 IST" duration-ms="8196" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User is Successfully logged in]]>
+            </line>
+            <line>
+              <![CDATA[Password is changed successfully]]>
+            </line>
+            <line>
+              <![CDATA[Logged in With NewPasword is Succes]]>
+            </line>
+            <line>
+              <![CDATA[integration Test case4 is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserpasswordchangeTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:42 IST" name="afterMethod" finished-at="2022-12-19T10:54:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TestNgTestScript.Testcasses@338fc1d8]" started-at="2022-12-19T10:54:42 IST" name="afterClass" finished-at="2022-12-19T10:54:42 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.TestNgTestScript.Testcasses -->
+    </test> <!-- AllTests -->
+  </suite> <!-- Suite -->
+</testng-results>

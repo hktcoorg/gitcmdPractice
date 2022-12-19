@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite"><!-- Parallel execution with class level-->
+	<test thread-count="4" parallel="classes" name="Test">
+	  <parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.TestNgTestScript.AdmincreatepackageTest" />
+			<class name="com.TestNgTestScript.AdmincreatedpackageverifyTest" />
+			<class name="com.TestNgTestScript.UserbookpackageTest" />
+			<class name="com.TestNgTestScript.UserpasswordchangeTest" />
+			<class name="com.TestNgTestScript.Testcasses" />
+		</classes>
+	</test><!-- Test-->
+</suite><!-- Suite-->

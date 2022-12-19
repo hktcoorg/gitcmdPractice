@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+    <line>
+      <![CDATA[Test pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="55936" started-at="2022-12-15T06:02:50Z" finished-at="2022-12-15T06:03:46Z">
+    <groups>
+      <group name="sanity">
+        <method signature="TestNgPractice2.p2T2()[pri:5, instance:com.testNGpractice.TestNgPractice2@6193932a]" name="p2T2" class="com.testNGpractice.TestNgPractice2"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="55936" started-at="2022-12-15T06:02:50Z" finished-at="2022-12-15T06:03:46Z">
+      <class name="com.testNGpractice.TestNgPractice2">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:com.testNGpractice.TestNgPractice2@6193932a]" name="lunchBrowser" duration-ms="55039" started-at="2022-12-15T11:32:51Z" finished-at="2022-12-15T11:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method status="PASS" signature="p2T2()[pri:5, instance:com.testNGpractice.TestNgPractice2@6193932a]" name="p2T2" duration-ms="0" started-at="2022-12-15T11:33:46Z" finished-at="2022-12-15T11:33:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- p2T2 -->
+      </class> <!-- com.testNGpractice.TestNgPractice2 -->
+      <class name="com.testNGpractice.DataProviderPractice">
+        <test-method status="PASS" signature="dataProTest(java.lang.String, int)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest" duration-ms="8" started-at="2022-12-15T11:32:50Z" data-provider="getData" finished-at="2022-12-15T11:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[560058]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProTest -->
+        <test-method status="PASS" signature="dataProTest(java.lang.String, int)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest" duration-ms="0" started-at="2022-12-15T11:32:50Z" data-provider="getData" finished-at="2022-12-15T11:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mandya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[573201]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProTest -->
+        <test-method status="PASS" signature="dataProTest(java.lang.String, int)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest" duration-ms="1" started-at="2022-12-15T11:32:50Z" data-provider="getData" finished-at="2022-12-15T11:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kodagu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[571232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProTest -->
+        <test-method status="PASS" signature="dataProTest(java.lang.String, int)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest" duration-ms="0" started-at="2022-12-15T11:32:50Z" data-provider="getData" finished-at="2022-12-15T11:32:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vizag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[530013]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProTest -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="1" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="1" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="0" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+        <test-method status="PASS" signature="dataProTest1(java.lang.String, java.lang.String)[pri:0, instance:com.testNGpractice.DataProviderPractice@769e7ee8]" name="dataProTest1" duration-ms="1" started-at="2022-12-15T11:32:51Z" data-provider="getDataExcelDP" finished-at="2022-12-15T11:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataProTest1 -->
+      </class> <!-- com.testNGpractice.DataProviderPractice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

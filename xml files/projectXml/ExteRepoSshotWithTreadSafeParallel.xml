@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Suite">
+
+	<listeners>
+		<listener class-name="com.holidaygurutravel.genericUtility.ListenerImplimentation" />
+		<listener class-name="com.holidaygurutravel.genericUtility.TransformRetryToListener" />
+	</listeners>
+
+	<test name="TestLevelExecution 1">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestNgTestScript.AdmincreatepackageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestLevelExecution 2">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestNgTestScript.AdmincreatedpackageverifyTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestLevelExecution 3">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestNgTestScript.UserbookpackageTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="TestLevelExecution 4">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.TestNgTestScript.UserpasswordchangeTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
